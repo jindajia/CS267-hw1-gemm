@@ -1,0 +1,8 @@
+Bootstrap: docker
+From: gcc:latest
+
+%post
+# install CMake
+apt-get update
+apt-get install -y cmake
+apt-get install -y libopenblas-dev

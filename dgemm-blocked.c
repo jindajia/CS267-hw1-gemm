@@ -1,8 +1,16 @@
-const char* dgemm_desc = "Simple blocked dgemm.";
-
 #ifndef BLOCK_SIZE
-#define BLOCK_SIZE 41
+#define BLOCK_SIZE 35
 #endif
+
+// https://gcc.gnu.org/onlinedocs/cpp/Stringizing.html#:~:text=When%20a%20macro%20parameter%20is,This%20is%20called%20stringizing.
+#ifndef XSTR(s)
+#define XSTR(s) STR(s)
+#endif
+#ifndef STR(s)
+#define STR(s) #s
+#endif
+
+const char* dgemm_desc = "Simple blocked dgemm. BLOCK_SIZE = " XSTR(BLOCK_SIZE);
 
 #define min(a, b) (((a) < (b)) ? (a) : (b))
 
