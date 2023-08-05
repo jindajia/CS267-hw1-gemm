@@ -1,0 +1,391 @@
++ cd /jet/home/jjia1/CS267-hw1-gemm/container
++ singularity run --bind /jet/home/jjia1/CS267-hw1-gemm/build:/mnt gcc_cmake_openblas_1.0.sif /mnt/benchmark-blocked-5
+Description:	Simple blocked dgemm. BLOCK_SIZE = 5
+
+Size: 31	Mflops/s: 1997.85	Percentage: 3.70
+Size: 32	Mflops/s: 2010.62	Percentage: 3.72
+Size: 96	Mflops/s: 2025.75	Percentage: 3.75
+Size: 97	Mflops/s: 2022.94	Percentage: 3.75
+Size: 127	Mflops/s: 2028.20	Percentage: 3.76
+Size: 128	Mflops/s: 2018.97	Percentage: 3.74
+Size: 129	Mflops/s: 2029.36	Percentage: 3.76
+Size: 191	Mflops/s: 2011.68	Percentage: 3.73
+Size: 192	Mflops/s: 2012.52	Percentage: 3.73
+Size: 229	Mflops/s: 2004.15	Percentage: 3.71
+Size: 255	Mflops/s: 1981.23	Percentage: 3.67
+Size: 256	Mflops/s: 1820.83	Percentage: 3.37
+Size: 257	Mflops/s: 1984.92	Percentage: 3.68
+Size: 319	Mflops/s: 1978.25	Percentage: 3.66
+Size: 320	Mflops/s: 1990.72	Percentage: 3.69
+Size: 321	Mflops/s: 1977.38	Percentage: 3.66
+Size: 417	Mflops/s: 1992.86	Percentage: 3.69
+Size: 479	Mflops/s: 1986.64	Percentage: 3.68
+Size: 480	Mflops/s: 2001.80	Percentage: 3.71
+Size: 511	Mflops/s: 1941.78	Percentage: 3.60
+Size: 512	Mflops/s: 1064.54	Percentage: 1.97
+Size: 639	Mflops/s: 1960.15	Percentage: 3.63
+Size: 640	Mflops/s: 1885.21	Percentage: 3.49
+Size: 767	Mflops/s: 1979.12	Percentage: 3.67
+Size: 768	Mflops/s: 1826.44	Percentage: 3.38
+Size: 769	Mflops/s: 1984.31	Percentage: 3.67
+Average percentage of Peak = 3.60
++ singularity run --bind /jet/home/jjia1/CS267-hw1-gemm/build:/mnt gcc_cmake_openblas_1.0.sif /mnt/benchmark-blocked-7
+Description:	Simple blocked dgemm. BLOCK_SIZE = 7
+
+Size: 31	Mflops/s: 2280.74	Percentage: 4.22
+Size: 32	Mflops/s: 2279.72	Percentage: 4.22
+Size: 96	Mflops/s: 2266.77	Percentage: 4.20
+Size: 97	Mflops/s: 2270.86	Percentage: 4.21
+Size: 127	Mflops/s: 2262.97	Percentage: 4.19
+Size: 128	Mflops/s: 2251.30	Percentage: 4.17
+Size: 129	Mflops/s: 2269.46	Percentage: 4.20
+Size: 191	Mflops/s: 2221.95	Percentage: 4.11
+Size: 192	Mflops/s: 2258.28	Percentage: 4.18
+Size: 229	Mflops/s: 2242.21	Percentage: 4.15
+Size: 255	Mflops/s: 2223.30	Percentage: 4.12
+Size: 256	Mflops/s: 2034.89	Percentage: 3.77
+Size: 257	Mflops/s: 2198.35	Percentage: 4.07
+Size: 319	Mflops/s: 2206.38	Percentage: 4.09
+Size: 320	Mflops/s: 2200.88	Percentage: 4.08
+Size: 321	Mflops/s: 2206.79	Percentage: 4.09
+Size: 417	Mflops/s: 2218.90	Percentage: 4.11
+Size: 479	Mflops/s: 2214.61	Percentage: 4.10
+Size: 480	Mflops/s: 2211.32	Percentage: 4.10
+Size: 511	Mflops/s: 2128.41	Percentage: 3.94
+Size: 512	Mflops/s: 920.29	Percentage: 1.70
+Size: 639	Mflops/s: 2116.47	Percentage: 3.92
+Size: 640	Mflops/s: 2071.79	Percentage: 3.84
+Size: 767	Mflops/s: 2117.28	Percentage: 3.92
+Size: 768	Mflops/s: 1885.63	Percentage: 3.49
+Size: 769	Mflops/s: 2106.49	Percentage: 3.90
+Average percentage of Peak = 3.96
++ singularity run --bind /jet/home/jjia1/CS267-hw1-gemm/build:/mnt gcc_cmake_openblas_1.0.sif /mnt/benchmark-blocked-10
+Description:	Simple blocked dgemm. BLOCK_SIZE = 10
+
+Size: 31	Mflops/s: 2070.66	Percentage: 3.83
+Size: 32	Mflops/s: 2103.75	Percentage: 3.90
+Size: 96	Mflops/s: 2124.44	Percentage: 3.93
+Size: 97	Mflops/s: 2106.07	Percentage: 3.90
+Size: 127	Mflops/s: 2116.79	Percentage: 3.92
+Size: 128	Mflops/s: 2094.85	Percentage: 3.88
+Size: 129	Mflops/s: 2086.48	Percentage: 3.86
+Size: 191	Mflops/s: 2078.63	Percentage: 3.85
+Size: 192	Mflops/s: 2082.53	Percentage: 3.86
+Size: 229	Mflops/s: 2075.29	Percentage: 3.84
+Size: 255	Mflops/s: 2075.40	Percentage: 3.84
+Size: 256	Mflops/s: 1920.62	Percentage: 3.56
+Size: 257	Mflops/s: 2076.69	Percentage: 3.85
+Size: 319	Mflops/s: 2087.18	Percentage: 3.87
+Size: 320	Mflops/s: 2091.62	Percentage: 3.87
+Size: 321	Mflops/s: 2078.89	Percentage: 3.85
+Size: 417	Mflops/s: 2087.21	Percentage: 3.87
+Size: 479	Mflops/s: 2092.92	Percentage: 3.88
+Size: 480	Mflops/s: 2099.11	Percentage: 3.89
+Size: 511	Mflops/s: 1910.96	Percentage: 3.54
+Size: 512	Mflops/s: 779.90	Percentage: 1.44
+Size: 639	Mflops/s: 2048.49	Percentage: 3.79
+Size: 640	Mflops/s: 2035.63	Percentage: 3.77
+Size: 767	Mflops/s: 2052.89	Percentage: 3.80
+Size: 768	Mflops/s: 1791.10	Percentage: 3.32
+Size: 769	Mflops/s: 2044.86	Percentage: 3.79
+Average percentage of Peak = 3.72
++ singularity run --bind /jet/home/jjia1/CS267-hw1-gemm/build:/mnt gcc_cmake_openblas_1.0.sif /mnt/benchmark-blocked-15
+Description:	Simple blocked dgemm. BLOCK_SIZE = 15
+
+Size: 31	Mflops/s: 1923.46	Percentage: 3.56
+Size: 32	Mflops/s: 1945.89	Percentage: 3.60
+Size: 96	Mflops/s: 1971.99	Percentage: 3.65
+Size: 97	Mflops/s: 1962.88	Percentage: 3.63
+Size: 127	Mflops/s: 1956.92	Percentage: 3.62
+Size: 128	Mflops/s: 1925.53	Percentage: 3.57
+Size: 129	Mflops/s: 1964.77	Percentage: 3.64
+Size: 191	Mflops/s: 1950.59	Percentage: 3.61
+Size: 192	Mflops/s: 1956.38	Percentage: 3.62
+Size: 229	Mflops/s: 1942.34	Percentage: 3.60
+Size: 255	Mflops/s: 1914.89	Percentage: 3.55
+Size: 256	Mflops/s: 1589.37	Percentage: 2.94
+Size: 257	Mflops/s: 1861.76	Percentage: 3.45
+Size: 319	Mflops/s: 1896.72	Percentage: 3.51
+Size: 320	Mflops/s: 1903.04	Percentage: 3.52
+Size: 321	Mflops/s: 1894.41	Percentage: 3.51
+Size: 417	Mflops/s: 1891.22	Percentage: 3.50
+Size: 479	Mflops/s: 1887.88	Percentage: 3.50
+Size: 480	Mflops/s: 1901.94	Percentage: 3.52
+Size: 511	Mflops/s: 1783.77	Percentage: 3.30
+Size: 512	Mflops/s: 602.21	Percentage: 1.12
+Size: 639	Mflops/s: 1915.35	Percentage: 3.55
+Size: 640	Mflops/s: 1903.54	Percentage: 3.53
+Size: 767	Mflops/s: 1901.46	Percentage: 3.52
+Size: 768	Mflops/s: 1573.22	Percentage: 2.91
+Size: 769	Mflops/s: 1888.74	Percentage: 3.50
+Average percentage of Peak = 3.41
++ singularity run --bind /jet/home/jjia1/CS267-hw1-gemm/build:/mnt gcc_cmake_openblas_1.0.sif /mnt/benchmark-blocked-20
+Description:	Simple blocked dgemm. BLOCK_SIZE = 20
+
+Size: 31	Mflops/s: 3786.71	Percentage: 7.01
+Size: 32	Mflops/s: 3861.99	Percentage: 7.15
+Size: 96	Mflops/s: 3948.18	Percentage: 7.31
+Size: 97	Mflops/s: 3944.78	Percentage: 7.31
+Size: 127	Mflops/s: 3837.85	Percentage: 7.11
+Size: 128	Mflops/s: 3672.30	Percentage: 6.80
+Size: 129	Mflops/s: 3841.79	Percentage: 7.11
+Size: 191	Mflops/s: 3876.51	Percentage: 7.18
+Size: 192	Mflops/s: 3847.48	Percentage: 7.12
+Size: 229	Mflops/s: 3832.78	Percentage: 7.10
+Size: 255	Mflops/s: 3690.51	Percentage: 6.83
+Size: 256	Mflops/s: 1561.99	Percentage: 2.89
+Size: 257	Mflops/s: 3703.68	Percentage: 6.86
+Size: 319	Mflops/s: 3879.02	Percentage: 7.18
+Size: 320	Mflops/s: 3848.85	Percentage: 7.13
+Size: 321	Mflops/s: 3817.89	Percentage: 7.07
+Size: 417	Mflops/s: 3888.77	Percentage: 7.20
+Size: 479	Mflops/s: 3902.49	Percentage: 7.23
+Size: 480	Mflops/s: 3853.84	Percentage: 7.14
+Size: 511	Mflops/s: 3390.62	Percentage: 6.28
+Size: 512	Mflops/s: 668.98	Percentage: 1.24
+Size: 639	Mflops/s: 3849.37	Percentage: 7.13
+Size: 640	Mflops/s: 3701.69	Percentage: 6.85
+Size: 767	Mflops/s: 3680.79	Percentage: 6.82
+Size: 768	Mflops/s: 1507.07	Percentage: 2.79
+Size: 769	Mflops/s: 3670.51	Percentage: 6.80
+Average percentage of Peak = 6.49
++ singularity run --bind /jet/home/jjia1/CS267-hw1-gemm/build:/mnt gcc_cmake_openblas_1.0.sif /mnt/benchmark-blocked-25
+Description:	Simple blocked dgemm. BLOCK_SIZE = 25
+
+Size: 31	Mflops/s: 4319.25	Percentage: 8.00
+Size: 32	Mflops/s: 4105.09	Percentage: 7.60
+Size: 96	Mflops/s: 4300.35	Percentage: 7.96
+Size: 97	Mflops/s: 4370.85	Percentage: 8.09
+Size: 127	Mflops/s: 4198.33	Percentage: 7.77
+Size: 128	Mflops/s: 3900.44	Percentage: 7.22
+Size: 129	Mflops/s: 4237.38	Percentage: 7.85
+Size: 191	Mflops/s: 4316.51	Percentage: 7.99
+Size: 192	Mflops/s: 4239.25	Percentage: 7.85
+Size: 229	Mflops/s: 4243.46	Percentage: 7.86
+Size: 255	Mflops/s: 4059.64	Percentage: 7.52
+Size: 256	Mflops/s: 1419.75	Percentage: 2.63
+Size: 257	Mflops/s: 4080.54	Percentage: 7.56
+Size: 319	Mflops/s: 4279.92	Percentage: 7.93
+Size: 320	Mflops/s: 4228.77	Percentage: 7.83
+Size: 321	Mflops/s: 4271.43	Percentage: 7.91
+Size: 417	Mflops/s: 4290.82	Percentage: 7.95
+Size: 479	Mflops/s: 4259.49	Percentage: 7.89
+Size: 480	Mflops/s: 4251.64	Percentage: 7.87
+Size: 511	Mflops/s: 3789.22	Percentage: 7.02
+Size: 512	Mflops/s: 547.49	Percentage: 1.01
+Size: 639	Mflops/s: 4191.60	Percentage: 7.76
+Size: 640	Mflops/s: 3878.23	Percentage: 7.18
+Size: 767	Mflops/s: 4019.83	Percentage: 7.44
+Size: 768	Mflops/s: 1408.18	Percentage: 2.61
+Size: 769	Mflops/s: 4036.06	Percentage: 7.47
+Average percentage of Peak = 7.07
++ singularity run --bind /jet/home/jjia1/CS267-hw1-gemm/build:/mnt gcc_cmake_openblas_1.0.sif /mnt/benchmark-blocked-27
+Description:	Simple blocked dgemm. BLOCK_SIZE = 27
+
+Size: 31	Mflops/s: 4006.50	Percentage: 7.42
+Size: 32	Mflops/s: 3868.28	Percentage: 7.16
+Size: 96	Mflops/s: 4121.29	Percentage: 7.63
+Size: 97	Mflops/s: 4171.79	Percentage: 7.73
+Size: 127	Mflops/s: 4063.33	Percentage: 7.52
+Size: 128	Mflops/s: 3757.57	Percentage: 6.96
+Size: 129	Mflops/s: 4074.73	Percentage: 7.55
+Size: 191	Mflops/s: 4054.60	Percentage: 7.51
+Size: 192	Mflops/s: 3971.27	Percentage: 7.35
+Size: 229	Mflops/s: 4055.75	Percentage: 7.51
+Size: 255	Mflops/s: 3991.25	Percentage: 7.39
+Size: 256	Mflops/s: 1259.25	Percentage: 2.33
+Size: 257	Mflops/s: 3980.57	Percentage: 7.37
+Size: 319	Mflops/s: 4089.04	Percentage: 7.57
+Size: 320	Mflops/s: 4047.17	Percentage: 7.49
+Size: 321	Mflops/s: 4093.36	Percentage: 7.58
+Size: 417	Mflops/s: 4073.27	Percentage: 7.54
+Size: 479	Mflops/s: 4053.76	Percentage: 7.51
+Size: 480	Mflops/s: 4065.68	Percentage: 7.53
+Size: 511	Mflops/s: 3682.12	Percentage: 6.82
+Size: 512	Mflops/s: 485.59	Percentage: 0.90
+Size: 639	Mflops/s: 3995.02	Percentage: 7.40
+Size: 640	Mflops/s: 3598.38	Percentage: 6.66
+Size: 767	Mflops/s: 3915.48	Percentage: 7.25
+Size: 768	Mflops/s: 1224.98	Percentage: 2.27
+Size: 769	Mflops/s: 3902.41	Percentage: 7.23
+Average percentage of Peak = 6.74
++ singularity run --bind /jet/home/jjia1/CS267-hw1-gemm/build:/mnt gcc_cmake_openblas_1.0.sif /mnt/benchmark-blocked-30
+Description:	Simple blocked dgemm. BLOCK_SIZE = 30
+
+Size: 31	Mflops/s: 3873.01	Percentage: 7.17
+Size: 32	Mflops/s: 4082.78	Percentage: 7.56
+Size: 96	Mflops/s: 4245.07	Percentage: 7.86
+Size: 97	Mflops/s: 4242.84	Percentage: 7.86
+Size: 127	Mflops/s: 4195.81	Percentage: 7.77
+Size: 128	Mflops/s: 3645.56	Percentage: 6.75
+Size: 129	Mflops/s: 4211.25	Percentage: 7.80
+Size: 191	Mflops/s: 4247.82	Percentage: 7.87
+Size: 192	Mflops/s: 4225.69	Percentage: 7.83
+Size: 229	Mflops/s: 4282.01	Percentage: 7.93
+Size: 255	Mflops/s: 4144.48	Percentage: 7.67
+Size: 256	Mflops/s: 1270.41	Percentage: 2.35
+Size: 257	Mflops/s: 4184.07	Percentage: 7.75
+Size: 319	Mflops/s: 4282.11	Percentage: 7.93
+Size: 320	Mflops/s: 4222.13	Percentage: 7.82
+Size: 321	Mflops/s: 4265.51	Percentage: 7.90
+Size: 417	Mflops/s: 4265.02	Percentage: 7.90
+Size: 479	Mflops/s: 4279.96	Percentage: 7.93
+Size: 480	Mflops/s: 4266.38	Percentage: 7.90
+Size: 511	Mflops/s: 3861.21	Percentage: 7.15
+Size: 512	Mflops/s: 526.51	Percentage: 0.98
+Size: 639	Mflops/s: 4212.10	Percentage: 7.80
+Size: 640	Mflops/s: 3612.07	Percentage: 6.69
+Size: 767	Mflops/s: 4080.48	Percentage: 7.56
+Size: 768	Mflops/s: 1252.38	Percentage: 2.32
+Size: 769	Mflops/s: 4091.58	Percentage: 7.58
+Average percentage of Peak = 6.98
++ singularity run --bind /jet/home/jjia1/CS267-hw1-gemm/build:/mnt gcc_cmake_openblas_1.0.sif /mnt/benchmark-blocked-33
+Description:	Simple blocked dgemm. BLOCK_SIZE = 33
+
+Size: 31	Mflops/s: 4003.24	Percentage: 7.41
+Size: 32	Mflops/s: 4166.54	Percentage: 7.72
+Size: 96	Mflops/s: 4011.08	Percentage: 7.43
+Size: 97	Mflops/s: 4026.14	Percentage: 7.46
+Size: 127	Mflops/s: 4004.22	Percentage: 7.42
+Size: 128	Mflops/s: 3280.71	Percentage: 6.08
+Size: 129	Mflops/s: 3992.45	Percentage: 7.39
+Size: 191	Mflops/s: 4036.34	Percentage: 7.47
+Size: 192	Mflops/s: 3991.55	Percentage: 7.39
+Size: 229	Mflops/s: 3977.80	Percentage: 7.37
+Size: 255	Mflops/s: 3887.37	Percentage: 7.20
+Size: 256	Mflops/s: 1115.97	Percentage: 2.07
+Size: 257	Mflops/s: 3896.66	Percentage: 7.22
+Size: 319	Mflops/s: 3985.63	Percentage: 7.38
+Size: 320	Mflops/s: 3937.64	Percentage: 7.29
+Size: 321	Mflops/s: 3961.40	Percentage: 7.34
+Size: 417	Mflops/s: 3975.74	Percentage: 7.36
+Size: 479	Mflops/s: 3950.98	Percentage: 7.32
+Size: 480	Mflops/s: 3955.62	Percentage: 7.33
+Size: 511	Mflops/s: 3630.41	Percentage: 6.72
+Size: 512	Mflops/s: 485.99	Percentage: 0.90
+Size: 639	Mflops/s: 3933.63	Percentage: 7.28
+Size: 640	Mflops/s: 3180.78	Percentage: 5.89
+Size: 767	Mflops/s: 3845.35	Percentage: 7.12
+Size: 768	Mflops/s: 1104.35	Percentage: 2.05
+Size: 769	Mflops/s: 3844.42	Percentage: 7.12
+Average percentage of Peak = 6.57
++ singularity run --bind /jet/home/jjia1/CS267-hw1-gemm/build:/mnt gcc_cmake_openblas_1.0.sif /mnt/benchmark-blocked-35
+Description:	Simple blocked dgemm. BLOCK_SIZE = 35
+
+Size: 31	Mflops/s: 3690.20	Percentage: 6.83
+Size: 32	Mflops/s: 3702.90	Percentage: 6.86
+Size: 96	Mflops/s: 3572.71	Percentage: 6.62
+Size: 97	Mflops/s: 3564.03	Percentage: 6.60
+Size: 127	Mflops/s: 3503.07	Percentage: 6.49
+Size: 128	Mflops/s: 2897.05	Percentage: 5.36
+Size: 129	Mflops/s: 3521.08	Percentage: 6.52
+Size: 191	Mflops/s: 3485.32	Percentage: 6.45
+Size: 192	Mflops/s: 3460.48	Percentage: 6.41
+Size: 229	Mflops/s: 3485.80	Percentage: 6.46
+Size: 255	Mflops/s: 3382.38	Percentage: 6.26
+Size: 256	Mflops/s: 1027.44	Percentage: 1.90
+Size: 257	Mflops/s: 3415.23	Percentage: 6.32
+Size: 319	Mflops/s: 3397.05	Percentage: 6.29
+Size: 320	Mflops/s: 3407.10	Percentage: 6.31
+Size: 321	Mflops/s: 3427.75	Percentage: 6.35
+Size: 417	Mflops/s: 3445.38	Percentage: 6.38
+Size: 479	Mflops/s: 3452.43	Percentage: 6.39
+Size: 480	Mflops/s: 3442.85	Percentage: 6.38
+Size: 511	Mflops/s: 3196.68	Percentage: 5.92
+Size: 512	Mflops/s: 448.23	Percentage: 0.83
+Size: 639	Mflops/s: 3412.10	Percentage: 6.32
+Size: 640	Mflops/s: 2747.39	Percentage: 5.09
+Size: 767	Mflops/s: 3361.41	Percentage: 6.22
+Size: 768	Mflops/s: 996.46	Percentage: 1.85
+Size: 769	Mflops/s: 3368.58	Percentage: 6.24
+Average percentage of Peak = 5.76
++ singularity run --bind /jet/home/jjia1/CS267-hw1-gemm/build:/mnt gcc_cmake_openblas_1.0.sif /mnt/benchmark-blocked-40
+Description:	Simple blocked dgemm. BLOCK_SIZE = 40
+
+Size: 31	Mflops/s: 3379.49	Percentage: 6.26
+Size: 32	Mflops/s: 3449.76	Percentage: 6.39
+Size: 96	Mflops/s: 3301.39	Percentage: 6.11
+Size: 97	Mflops/s: 3303.47	Percentage: 6.12
+Size: 127	Mflops/s: 3220.29	Percentage: 5.96
+Size: 128	Mflops/s: 2280.96	Percentage: 4.22
+Size: 129	Mflops/s: 3220.45	Percentage: 5.96
+Size: 191	Mflops/s: 3241.76	Percentage: 6.00
+Size: 192	Mflops/s: 3240.46	Percentage: 6.00
+Size: 229	Mflops/s: 3265.48	Percentage: 6.05
+Size: 255	Mflops/s: 3216.25	Percentage: 5.96
+Size: 256	Mflops/s: 928.85	Percentage: 1.72
+Size: 257	Mflops/s: 3205.47	Percentage: 5.94
+Size: 319	Mflops/s: 3228.38	Percentage: 5.98
+Size: 320	Mflops/s: 3152.58	Percentage: 5.84
+Size: 321	Mflops/s: 3204.60	Percentage: 5.93
+Size: 417	Mflops/s: 3241.83	Percentage: 6.00
+Size: 479	Mflops/s: 3239.27	Percentage: 6.00
+Size: 480	Mflops/s: 3183.37	Percentage: 5.90
+Size: 511	Mflops/s: 3069.59	Percentage: 5.68
+Size: 512	Mflops/s: 412.11	Percentage: 0.76
+Size: 639	Mflops/s: 3213.98	Percentage: 5.95
+Size: 640	Mflops/s: 2459.66	Percentage: 4.55
+Size: 767	Mflops/s: 3183.07	Percentage: 5.89
+Size: 768	Mflops/s: 941.20	Percentage: 1.74
+Size: 769	Mflops/s: 3177.88	Percentage: 5.88
+Average percentage of Peak = 5.34
++ singularity run --bind /jet/home/jjia1/CS267-hw1-gemm/build:/mnt gcc_cmake_openblas_1.0.sif /mnt/benchmark-blocked-45
+Description:	Simple blocked dgemm. BLOCK_SIZE = 45
+
+Size: 31	Mflops/s: 3384.68	Percentage: 6.27
+Size: 32	Mflops/s: 3462.76	Percentage: 6.41
+Size: 96	Mflops/s: 3136.52	Percentage: 5.81
+Size: 97	Mflops/s: 3159.30	Percentage: 5.85
+Size: 127	Mflops/s: 3158.80	Percentage: 5.85
+Size: 128	Mflops/s: 2196.46	Percentage: 4.07
+Size: 129	Mflops/s: 3165.61	Percentage: 5.86
+Size: 191	Mflops/s: 3166.94	Percentage: 5.86
+Size: 192	Mflops/s: 3125.15	Percentage: 5.79
+Size: 229	Mflops/s: 3116.70	Percentage: 5.77
+Size: 255	Mflops/s: 3148.57	Percentage: 5.83
+Size: 256	Mflops/s: 886.99	Percentage: 1.64
+Size: 257	Mflops/s: 3140.62	Percentage: 5.82
+Size: 319	Mflops/s: 3111.38	Percentage: 5.76
+Size: 320	Mflops/s: 3081.46	Percentage: 5.71
+Size: 321	Mflops/s: 3112.55	Percentage: 5.76
+Size: 417	Mflops/s: 3142.81	Percentage: 5.82
+Size: 479	Mflops/s: 3170.52	Percentage: 5.87
+Size: 480	Mflops/s: 3165.86	Percentage: 5.86
+Size: 511	Mflops/s: 3020.45	Percentage: 5.59
+Size: 512	Mflops/s: 403.02	Percentage: 0.75
+Size: 639	Mflops/s: 3159.87	Percentage: 5.85
+Size: 640	Mflops/s: 2214.41	Percentage: 4.10
+Size: 767	Mflops/s: 3046.17	Percentage: 5.64
+Size: 768	Mflops/s: 886.07	Percentage: 1.64
+Size: 769	Mflops/s: 3098.59	Percentage: 5.74
+Average percentage of Peak = 5.19
++ singularity run --bind /jet/home/jjia1/CS267-hw1-gemm/build:/mnt gcc_cmake_openblas_1.0.sif /mnt/benchmark-blocked-50
+Description:	Simple blocked dgemm. BLOCK_SIZE = 50
+
+Size: 31	Mflops/s: 3394.00	Percentage: 6.29
+Size: 32	Mflops/s: 3455.93	Percentage: 6.40
+Size: 96	Mflops/s: 3127.31	Percentage: 5.79
+Size: 97	Mflops/s: 3164.82	Percentage: 5.86
+Size: 127	Mflops/s: 3233.93	Percentage: 5.99
+Size: 128	Mflops/s: 2140.49	Percentage: 3.96
+Size: 129	Mflops/s: 3218.92	Percentage: 5.96
+Size: 191	Mflops/s: 3154.41	Percentage: 5.84
+Size: 192	Mflops/s: 3047.76	Percentage: 5.64
+Size: 229	Mflops/s: 3177.24	Percentage: 5.88
+Size: 255	Mflops/s: 3134.14	Percentage: 5.80
+Size: 256	Mflops/s: 866.51	Percentage: 1.60
+Size: 257	Mflops/s: 3124.15	Percentage: 5.79
+Size: 319	Mflops/s: 3170.43	Percentage: 5.87
+Size: 320	Mflops/s: 3096.02	Percentage: 5.73
+Size: 321	Mflops/s: 3166.38	Percentage: 5.86
+Size: 417	Mflops/s: 3148.75	Percentage: 5.83
+Size: 479	Mflops/s: 3162.18	Percentage: 5.86
+Size: 480	Mflops/s: 3126.29	Percentage: 5.79
+Size: 511	Mflops/s: 3033.74	Percentage: 5.62
+Size: 512	Mflops/s: 403.05	Percentage: 0.75
+Size: 639	Mflops/s: 3159.66	Percentage: 5.85
+Size: 640	Mflops/s: 2075.20	Percentage: 3.84
+Size: 767	Mflops/s: 3118.53	Percentage: 5.78
+Size: 768	Mflops/s: 884.47	Percentage: 1.64
+Size: 769	Mflops/s: 3130.46	Percentage: 5.80
+Average percentage of Peak = 5.19

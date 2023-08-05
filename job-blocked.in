@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -x 
+# echo each command to standard out before running it
+
+cd $HOME/CS267-hw1-gemm/container
+

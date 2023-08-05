@@ -51,9 +51,6 @@ Thumbs.db
 # Container file
 *.sif
 
-# Output files
-/output
-
 # Build files.
 cmake-build-debug
 build
