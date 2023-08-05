@@ -5,7 +5,7 @@ set -x
 
 cd $HOME/CS267-hw1-gemm/container
 
-singularity run --bind $HOME/CS267-hw1-gemm/build:/mnt gcc_cmake_openblas_1.0.sif /mnt/benchmark-blocked
+singularity run --bind $HOME/CS267-hw1-gemm/build:/mnt gcc_cmake_openblas_1.0.sif /mnt/benchmark-@BENCHMARK@
 
 
-#sbatch -o output/output.txt -p RM-shared -t 00:05:00 --ntasks-per-node=1 job.in
+#sbatch -o output/output-@BENCHMARK@.txt -p RM-shared -t 00:05:00 --ntasks-per-node=1 job-@BENCHMARK@
